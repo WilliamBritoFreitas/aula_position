@@ -1,0 +1,110 @@
+*{
+    Margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body, .boxes, .area_not {
+    height: 100%;
+}
+
+.boxes{    
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cadetblue;
+    position: relative;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    color: bisque;
+    font-size: 26px;
+    position: absolute;
+    
+    
+}
+
+
+.red {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: red; 
+}
+
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+  
+    background-color: green;
+}
+
+
+
+/* .box {
+    display: inline-block;
+    text-align: right;
+    margin-left: 14%;
+
+    
+} */
+
+
+/* .area_not {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 50px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cadetblue;
+    position: relative;
+    color: aliceblue;
+} */
+
+.area_not {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notifica {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 50px;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+  
+    
+    background-color: cadetblue;
+    position: relative;
+    color: aliceblue;
+}
+
+.sino{
+    position: absolute;
+    font-size: 18px;
+    width: 1em;
+    height: 1.5em;
+    background-color: green;
+    text-align: center;
+    top: 0;
+    left: 95%;
+}

@@ -117,12 +117,13 @@ html,body, .boxes, .area_not {
 .sino{
     position: absolute;
     font-size: 20px;
-    width: 1em;
+    width: 1.5em;
     height: 1.5em;
     background-color: green;
     text-align: center;
-    top: 0;
-    right: 0;
-    transform: translate(8px,0px);
+    top: -10px;
+    right: -10px;
+    /* transform: translate(8px,0px); */
     justify-content: right;
+    border-radius: 100%;
 }
